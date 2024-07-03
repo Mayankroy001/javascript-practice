@@ -48,3 +48,8 @@ console.log(typeof(score));//both are same
  let str3 = str1+str2
 
  console.log(str3);
+
+ let scoreInvcrease =100;
+ scoreInvcrease++;
+ //++scoreInvcrease  (both are same)
+ console.log(scoreInvcrease);
