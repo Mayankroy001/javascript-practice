@@ -23,3 +23,22 @@ console.log(id === anotherId);
   semster :"1st",
  }
 
+   // stack(premitive), heap(non premitive)
+    let youTubename = "Mayank Roy official"
+    youTubename ="mayankvlogger";
+    let anothername = youTubename
+    console.log(youTubename);
+    console.log(anothername);
+    console.log(youTubename);
+
+    // Another example of heap===
+
+    let userOne = {
+        name :"mayank Roy",
+        rollNo : 2,
+        phoneNumber : "8436889864"
+    }
+
+    let userTwo = userOne;
+    console.log(userOne);
+    console.log(userTwo);
