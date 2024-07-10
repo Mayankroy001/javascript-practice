@@ -38,5 +38,32 @@ console.log(Math.ceil(4.2)); // It will round up the value, we use ".ceil"
 console.log(Math.floor(4.2)); // It will round down the value, we use ".floor"
 console.log(Math.max(4, 3, 7)); // For getting the maximum value, we use ".max"
 console.log(Math.min(4, 3, 7)); // For getting the minimum value, we use ".min"
+console.log(Math.random());  // it is generate random value
+console.log(Math.random()*10); // it is shift values to left [0.12345 convert into 1.2345]
+
+//////////////////////////PLAYING WITH RANDOM MATH====================================================
+
+
+const anotherValue = (Math.random());
+console.log(anotherValue);
+console.log(Math.abs(anotherValue));
+
+
+
+
+///////////////// PLAYING WITH RANDOM MATH=============================================================
+
+
+const anotherValueOne= (Math.random()*10);
+console.log(anotherValueOne.toFixed(3));
 console.log(Math.random());
-console.log(Math.random()*10);
+console.log(Math.ceil(anotherValueOne));
+console.log(Math.floor(Math.abs(anotherValueOne)));
+console.log(anotherValueOne.toPrecision(4));
+ 
+///// ANOTHRT EXAMPLE==============
+
+const min = 10
+const max = 20
+
+console.log(Math.floor(Math.random())*(max - min+1)+min);
