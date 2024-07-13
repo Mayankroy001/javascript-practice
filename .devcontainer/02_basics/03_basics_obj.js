@@ -24,3 +24,19 @@ const user2 ={
     console.log(typeof user2.mySym);
     console.log(user2["email"]);
     
+     //Actual process
+
+     const mySym1 = Symbol('key'); // Defining the symbol
+
+const myUser3 = {
+  name: "Mayank Roy",
+  [mySym1]: "Key", // Assigning a string value to the symbol property
+  age: 18,
+  Location: "Kharibari",
+  isLoggedin: false,
+  email: "Myank@gmail.com",
+  LoggedinDays: ["Monday", "Sunday"] // Fixed the spelling of "Sunday"
+};
+
+console.log(myUser3);
+console.log(myUser3[mySym1]);
