@@ -40,3 +40,11 @@ const myUser3 = {
 
 console.log(myUser3);
 console.log(myUser3[mySym1]);
+
+// How to update object ====
+myUser3.email ="Myank@gmail.com"
+Object.freeze(myUser3); /// it helps to stop further update
+myUser3.email = "Toy2005roy@gmail.com" // here this email will not print in terminal..
+console.log(myUser3);
+
+//Object.freeze(myUser3[email])
