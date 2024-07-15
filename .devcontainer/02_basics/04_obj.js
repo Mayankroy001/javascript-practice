@@ -44,7 +44,38 @@ const tinderUser = {}
 const obj2 = {age1 : 19, age2: 24, age3 : 44};
 const obj3 = {work1 :"student", work2 : "Private job", Wor3k : "Goverment job"};
 
-const obj4 = {obj1,obj2,obj3};
-console.log(obj4);
+//const obj4 = {obj1,obj2,obj3};
+//console.log(obj4);
 
 //console.log(...obj1,...obj2,...obj3);
+const obj4 =Object.assign({},obj1,obj2,obj3)
+
+const course = {
+   courseName : "Javascript",
+   price : 899,
+courseInstructor: "Mayank Roy"
+}
+
+ console.log(course.courseInstructor);
+ console.log(course);
+
+ ///============we can declare object in array methode==============
+ /////    we can also use this for databse ==============
+ const user =[
+  {
+  id : 1,
+  email : "Mayank@gmail.com"  
+   },
+   {
+    id : 2,
+    email : "rayank@gmail.com"  
+     },
+     {
+      id : 3,
+      email : "tayank@gmail.com"  
+       },
+ ]
+ user[1].email
+ console.log(user);
+
+     
