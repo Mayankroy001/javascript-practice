@@ -60,7 +60,7 @@ courseInstructor: "Mayank Roy"
  console.log(course);
 
  ///============we can declare object in array methode==============
- /////    we can also use this for databse ==============
+ /////    we can also use this for databse ==============(Very important topic)
  const user =[
   {
   id : 1,
