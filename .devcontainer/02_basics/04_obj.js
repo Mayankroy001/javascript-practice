@@ -8,7 +8,7 @@ const tinderUser = {}
    tinderUser.isLoggedIn = false
 
    console.log(tinderUser);
-
+console.log(Object.keys(tinderUser));
    //we can add object under object ;;;;;
 
    const anotherUser ={
@@ -36,7 +36,7 @@ const tinderUser = {}
     console.log(anotherUser.userFullDetails);
     console.log(anotherUser.Education);
  console.log(anotherUser.userFullDetails.Education);
-
+ console.log(Object.keys(anotherUser));
 
  //Also we can write it array form========
 
@@ -77,5 +77,58 @@ courseInstructor: "Mayank Roy"
  ]
  user[1].email
  console.log(user);
+console.log(Object.keys(user));
 
-     
+const whatsAppUSer ={
+   Name : "Mayank Roy",
+   Email: "Mayank2005Roy@gmail.com",
+   Password : 123456,
+   isLoggedIn : false
+}
+     console.log(Object.keys(whatsAppUSer));
+     console.log(Object.values(whatsAppUSer));
+     console.log(Object.entries(whatsAppUSer));//its add array under array
+    // console.log(whatsAppUSer.hasOwProperty('Userid')); // we  can check the object is available oer not
+
+    const newCourse = {
+      courseName: "Javascript",
+      Price: 999,
+      CouseInstructer: "Mayank"
+   }; 
+   
+   console.log(newCourse);
+    newCourse.CouseInstructer
+   
+    // in this process we dom't need to write again and again Course.instructor, this process is known as Destructure========== 
+   const { CouseInstructer: instructor } = newCourse;
+   console.log(instructor);  // This will be the output: "Mayank"  
+
+//Destructure basically used in react js example
+
+//const navBar = ({company}) => {
+
+//}
+// navBar(company = "Mayank")
+    
+
+///////// in json all keys and values are in String format always. example
+
+
+
+  //{
+   //"Name" : "Mayank",
+   //"CourseName" : "Js in Hindi",
+   //"isloggedin" : false,  [it's not string cause it's an another datatype ]   
+// "Password" : 122346     [it's not an string becausew it's an another datatypes]
+//}
+
+
+///////////we can add object array in arrays
+ 
+  [
+
+    {},
+    {},
+    {}
+
+   ] 
